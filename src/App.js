@@ -1,18 +1,28 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import AddProduct from './components.js/AddProduct';
 import ShowProduct from './components.js/ShowProduct';
+import EditProduct from './components.js/EditProduct';
 
 function App() {
   return (
-    <div className='container mt-4'>
-      <div className='row'>
-        <div className='col'>
-          <AddProduct />
-        </div>
-        <div className='col'>
-          <ShowProduct />
-        </div>
+    <BrowserRouter>
+      <div className='container mt-3'>
+        <Routes>
+          <Route
+            path='/'
+            element={<ShowProduct />}
+          />
+          <Route
+            path='add'
+            element={<AddProduct />}
+          />
+          <Route
+            path='edit/:id'
+            element={<EditProduct />}
+          />
+        </Routes>
       </div>
-    </div>
+    </BrowserRouter>
   );
 }
 

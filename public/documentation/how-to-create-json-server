@@ -1,0 +1,7 @@
+first create json-server using this command
+
+- npm install -g json-server
+
+and run the server using this command
+
+- json-server -w db.json -p 5000

@@ -1,0 +1,39 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Buah Nagadsx",
+      "price": "2233"
+    },
+    {
+      "id": 2,
+      "title": "Melon",
+      "price": 443
+    },
+    {
+      "id": 3,
+      "title": "Semangka Afrika",
+      "price": 2232
+    },
+    {
+      "id": 4,
+      "title": "Roti Jala",
+      "price": 7323
+    },
+    {
+      "id": 5,
+      "title": "Jambu Monyet",
+      "price": 6234
+    },
+    {
+      "title": "1",
+      "price": 2,
+      "id": 12
+    },
+    {
+      "title": "jeruk",
+      "price": "5000",
+      "id": 13
+    }
+  ]
+}
